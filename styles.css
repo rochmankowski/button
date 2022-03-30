@@ -1,0 +1,49 @@
+.button {
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Outfit', sans-serif;
+    background-color: white;
+    color: black;
+    padding: 5px 40px;
+    border:none;
+    border-bottom: 3px solid black;
+    transition: all 0.5s ease-in-out;
+    width: 200px;
+    height: 30px;
+}
+
+.button:hover {
+    background-color: black;
+    color: white;    
+}
+
+.button:active {
+    background-color: gray;
+    border-bottom: 3px solid gray;
+}
+
+#products {
+    width: 200px;
+    height: 30px;
+    display: inline-block;
+    margin: 5px 0px 5px 0px;
+}
+
+#delivery {
+    width: 200px;
+    height: 30px;
+    display: inline-block;
+    margin: 5px 0px 5px 0px;
+}
+
+#contact {
+    width: 200px;
+    height: 30px;
+    display: inline-block;
+    margin: 5px 0px 5px 0px;
+}
+
+span {
+    width: 400px;
+    height: 30px;
+    display: flex;
+}
